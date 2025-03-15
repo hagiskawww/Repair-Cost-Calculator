@@ -53,6 +53,7 @@ function calc() {
 
 
     const formater = new Intl.NumberFormat('ru')
+    parseInt(totalPrice)
     price.innerText = formater.format(totalPrice)
 }
 
